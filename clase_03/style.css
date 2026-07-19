@@ -72,3 +72,27 @@ button:hover {
 .dark-mode #mensaje {
     color: #6fcf97;
 }
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem 1rem;
+        margin: 1rem;
+    }
+
+    .tech-img {
+        width: 140px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
